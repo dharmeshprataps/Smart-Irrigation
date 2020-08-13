@@ -1,0 +1,49 @@
+@import "template.css";
+
+.selectionDiv {
+	margin-top: 40px;
+}
+.weatherImg {
+	width: 100%;
+}
+
+.weatherDataCollection {
+	width: 100%;
+	margin-top: 2px;
+	padding-right: 15px;
+	padding-left: 15px;
+	border-radius: 5px;
+	text-align: center;
+	/* border: 1px black solid; */
+}
+.weatherUnit {
+	width: 100%;
+}
+
+.statusDataHeader {
+	margin-top: auto;
+	color: Black;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Baloo-Regular;
+}
+
+.statusDataText {
+	font-size: 16px;
+	color: orange;
+	font-family: Baloo-Regular;
+}
+
+.weatherIcon {
+	width: 70px;
+}
+
+@media screen and (max-width: 700px) {
+	.label {
+		font-size: 8px;
+	}
+	.selectionDiv {
+		margin-top: 15px;
+		margin-bottom: 30px;
+	}
+}
